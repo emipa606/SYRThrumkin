@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DD316234-E927-4F5A-8177-3E4FA5C40093}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SyrThrumkin</RootNamespace>
+    <AssemblyName>SyrThrumkin</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony" />
+    <Reference Include="AlienRace" />
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>..\..\..\..\RimWorldWin64_Data\Managed\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CanEverEatPatch.cs" />
+    <Compile Include="FoodOptimalityPatch.cs" />
+    <Compile Include="Frostleaf.cs" />
+    <Compile Include="GameComponent_MenardySpawnable.cs" />
+    <Compile Include="GenerateQualityCreatedByPawnPatch.cs" />
+    <Compile Include="GetLovinMtbHoursPatch.cs" />
+    <Compile Include="GetPartnerInMyBedPatch.cs" />
+    <Compile Include="GrowthSeasonNowPatch.cs" />
+    <Compile Include="HarmonyPatches.cs" />
+    <Compile Include="HasPartsToWearPatch.cs" />
+    <Compile Include="IngestedCalculateAmountsPatch.cs" />
+    <Compile Include="IngestedPatch.cs" />
+    <Compile Include="InteractionWorker_RecruitAttemptPatch.cs" />
+    <Compile Include="InteractionWorker_RomanceAttemptPatch.cs" />
+    <Compile Include="IsFloorAllowedPatch.cs" />
+    <Compile Include="IsStuffAllowedPatch.cs" />
+    <Compile Include="JobDriver_ShearThrumkin.cs" />
+    <Compile Include="Need_FoodPatch.cs" />
+    <Compile Include="PostProcessGeneratedGearPatch.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recipe_RemoveHornThrumkin.cs" />
+    <Compile Include="RoomOwnersPatch.cs" />
+    <Compile Include="RulesForPawnPatch.cs" />
+    <Compile Include="SyrThrumkinCore.cs" />
+    <Compile Include="SyrThrumkinSettings.cs" />
+    <Compile Include="ThoughtWorker_SharedBedPatch.cs" />
+    <Compile Include="ThrumkinDefOf.cs" />
+    <Compile Include="TryFindBestFoodSourceForPatch.cs" />
+    <Compile Include="TryGenerateNewLeaderPatch.cs" />
+    <Compile Include="TryGenerateNewPawnInternalPatch.cs" />
+    <Compile Include="WorkGiver_ShearThrumkin.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
