@@ -9,16 +9,25 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2017359567
 
 ![Image](https://i.imgur.com/7Gzt3Rg.png)
 
+
+[table]
+    [tr]
+        [td]https://invite.gg/Mlie]![Image](https://i.imgur.com/zdzzBrc.png)
+[/td]
+        [td]https://github.com/emipa606/SYRThrumkin]![Image](https://i.imgur.com/kTkpTOE.png)
+[/td]
+    [/tr]
+[/table]
 	
 ![Image](https://i.imgur.com/NOW7jU1.png)
 
 ### **Adds a humanoid thrumbo race.**
 
 
-*If you are having issues with the food AI of Thrumkin, enable &quot;use standard AI&quot; in the settings*
+*If you are having issues with the food AI of Thrumkin, enable "use standard AI" in the settings*
 
 **Requires https://steamcommunity.com/workshop/filedetails/?id=839005762]Humanoid Alien Framework loaded before this**
-https://steamcommunity.com/sharedfiles/filedetails/?id=1461790308]Harvest Yield Patch is not required, but highly recommended, otherwise some aspects of the race won&apos;t work as I intended them to.
+https://steamcommunity.com/sharedfiles/filedetails/?id=1461790308]Harvest Yield Patch is not required, but highly recommended, otherwise some aspects of the race won't work as I intended them to.
 
 The Thrumkin are a neolithic race that inhabits different planets, having been captured and brought along for the ride due to their rarity and beauty. 
 
@@ -37,7 +46,7 @@ They are not particularly skilled when it comes to building tools and using them
 - 10% higher harvest of plants
 - 20% higher animal yield
 - 10% higher animal tame/train chance
-- 0.5 Beauty base (that&apos;s half a &quot;pretty&quot; trait)
+- 0.5 Beauty base (that's half a "pretty" trait)
 - 20% higher negotiation ability
 - Can be sheared for some thrumbo fur
 - Can eat wood and hay in a pinch
@@ -49,7 +58,7 @@ They are not particularly skilled when it comes to building tools and using them
 - You can steal their horn or re-install a broken/stolen one - the item is the same as from thrumbos
 - You can shear prisoner thrumkin
 - Can share double beds with non-lovers without penalty to either one (even if one is not a thrumkin)
-- Will do lovin&apos; with non-lovers if in a shared bed
+- Will do lovin' with non-lovers if in a shared bed
 
 
 **Disadvantages:**
@@ -75,13 +84,7 @@ __________
 
 
 Also check out my other Rimworld mods:
-https://steamcommunity.com/workshop/filedetails/?id=1474000866]Syrchalis&apos; Mods
-
-If you enjoy my mods consider supporting me:
-https://www.patreon.com/syrchalis]![Image](https://i.imgur.com/NNM7mbP.png)
-
-https://ko-fi.com/A0A0IJ2R]![Image](https://i.imgur.com/QMURwKz.png)
-
+https://steamcommunity.com/workshop/filedetails/?id=1474000866]Syrchalis' Mods
 
 ![Image](https://i.imgur.com/Rs6T6cr.png)
 
@@ -93,6 +96,7 @@ https://ko-fi.com/A0A0IJ2R]![Image](https://i.imgur.com/QMURwKz.png)
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 
 
